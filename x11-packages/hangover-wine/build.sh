@@ -13,7 +13,7 @@ TERMUX_PKG_SHA256=(
 	0bb5700563dd62513f6fe402479e6f6599b294bc5cbde83baf397274cdce44ab
 	ffe43c278e371be38fe292c820db9903219196b38742744208f09519d6244da3
 )
-TERMUX_PKG_DEPENDS="fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr"
+TERMUX_PKG_DEPENDS="fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr, gstreamer, gst-plugins-base"
 TERMUX_PKG_ANTI_BUILD_DEPENDS="vulkan-loader"
 TERMUX_PKG_BUILD_DEPENDS="libandroid-spawn-static, vulkan-loader-generic"
 TERMUX_PKG_NO_STATICSPLIT=true
@@ -47,7 +47,7 @@ enable_tools=yes
 --with-gettextpo=no
 --without-gphoto
 --with-gnutls
---without-gstreamer
+--with-gstreamer
 --without-inotify
 --with-krb5
 --with-mingw=clang
