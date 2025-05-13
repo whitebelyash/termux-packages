@@ -56,7 +56,6 @@ enable_tools=yes
 --without-netapi
 --without-opencl
 --with-opengl
---with-osmesa
 --without-oss
 --without-pcap
 --with-pthread
