@@ -78,7 +78,7 @@ enable_tools=yes
 --without-xshape
 --without-xshm
 --without-xxf86vm
---enable-archs=aarch64,arm64ec
+--enable-archs=i386,aarch64,arm64ec
 "
 # TODO: `--enable-archs=arm` doesn't build with option `--with-mingw=clang`, but
 # TODO: `arm64ec` doesn't build with option `--with-mingw` (arm64ec-w64-mingw32-clang)
